@@ -11,6 +11,7 @@ in this section some tools and techniques that are used widely,are described .ke
 <li>lists of Hosts in Windows</li>
 <li>SSH reverse proxy</li>
 <li>Basic Download Manager</li>
+<li>CMD Networking commands </li>
 </ul>
 
 
@@ -211,4 +212,21 @@ Conditional forwarding is when a condition is applied to which DNS requests are 
 <a href="https://itfreetraining.com/lesson/forwarding_conditional/">Resource</a>
 
 
+## CMD Networking commands
 
+
+| Command | Description |
+| --- | --- |
+|1.ping |ommand works by sending out multiple data packets and seeing how many of them return|
+|2.tracert | command outputs a line-by-line summary of each hop|
+|3.pathping|is similar to "tracert," except it's more informative and takes a lot longer to execute|
+|4.ipconfig|shows every network adapter on your system and how they resolve|
+|5.netstat|s a tool for network statistics, diagnostics, and analysis |
+|6.arp -a|to list all the devices on the network     |
+|7.net view|see the computers and devices connected to my network|
+|8.nslookup|for dns lookups     |
+|9.Getmac|to get mac addresses    |
+
+
+### net view 
+The <code>net view</code> command works by querying the Server Message Block (SMB) protocol, which allows sharing of resources like files or printers over a network.
